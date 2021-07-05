@@ -1,3 +1,41 @@
 body{
     font-family: 'Noto Sans', sans-serif;
 }
+.flexible-container{
+    display: flex;
+    margin: 50px;
+    background-image: url('images/blue-bg.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 30%;
+    background-position-y: 50px;
+}
+h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.half-width{
+    padding-left: 5%;
+   width: 50%;
+   margin-top: 5%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: -8%;
+}
+.quote{
+    margin-bottom: 8%;
+}
+.lentil-restaurant{
+    color: blue;
+    font-weight: bold;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(158, 91, 235),rgb(11, 45, 139));
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
