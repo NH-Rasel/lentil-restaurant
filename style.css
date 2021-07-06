@@ -25,6 +25,7 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -34,4 +35,15 @@ section{
 .half-width img{
     width: 70%;
     margin-top: 10px;
+}
+.middle-section{
+    background-image: url('images/Frame\ 56.jpg');
+    padding-left: 5%;
+    padding-bottom: 2%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+#chef{
+    padding-top: 5%;
 }
